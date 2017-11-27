@@ -26,6 +26,8 @@ public class ListController {
         columnChoices.put("all", "All");
     }
 
+
+
     @RequestMapping(value = "")
     public String list(Model model) {
 
